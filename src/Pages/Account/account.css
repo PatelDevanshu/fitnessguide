@@ -1,0 +1,26 @@
+.accountall{
+    background-color: #150;
+    padding: 30px;
+    padding-top: 20vh;
+}
+.rgpg{
+    background-color: #150;
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.register{
+    background-color: #cfa;
+    padding: 20px;
+    
+}
+.register .items{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.register label{
+    color: var(--main) !important;
+}
