@@ -2,8 +2,8 @@ import Headerimg from "../../Images/home1.jpg";
 import DetailsImg from "../../Images/details.jpg";
 import ImproveImg from "../../Images/improve.jpg";
 import TrainerImg from "../../Images/trainer.jpg";
+import JoinImg from "../../Images/joinusimg.jpg";
 // import SecondHeader from '../../Images/details.jpg'
-import { Footer } from "../../Components";
 
 import "./home.css";
 const Home = () => {
@@ -37,7 +37,8 @@ const Home = () => {
           <div className="col-sm-5">
             <h6>Attitude is everything..</h6>
             <h5>
-              To Change <br /> Your Attitude is Just <span>Join Us</span>
+              To Change <br /> Your Attitude is Just <br />
+              <span>Join Us</span>
             </h5>
             <p>
               Your attitude determines your success. Whether you're a seasoned
@@ -55,6 +56,9 @@ const Home = () => {
       </div>
       <div className="details_home_secon">
         <div className="conatiner">
+          <div className="row">
+            <div className="col-sm-4 offering">We Assist You..</div>
+          </div>
           <div className="row">
             <div className="col-sm-6 homecon">
               <div className="box">
@@ -185,8 +189,20 @@ const Home = () => {
         </div>
       </div>
 
-      {/*Footer */}
-      <Footer />
+      {/* Join us */}
+
+      <div className="custominput container">
+        <div className="jnimg">
+          <img src={JoinImg} className="joinimg" alt="Join Us" srcset="" />
+        </div>
+        <div className="Overlay"></div>
+        <div className="inptxt">
+          <span className="context">Join Now</span>
+          <div className="textual">
+            Be a part of something great - join us now!
+          </div>
+        </div>
+      </div>
     </>
   );
 };

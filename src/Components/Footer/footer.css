@@ -1,14 +1,57 @@
-footer{
+
+.footer{
+    color: #fff;
     background-color: #000;
     padding: 20px;
+    position: relative;
+}
+.footer-brand{
+    font-size: 4.5em;
+    align-items: center;
+    color: #ffa;
+    margin: auto 20px;
+    text-decoration: none;
+}
+.footer-brand span{
+    font-size: 1.3em;
+    color: var(--main) !important;
+}
+.footing{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    text-align: center;
+    color: #fff;
+}
+.footing p:hover{
+    color: var(--main) !important;
+}
+.footer-brand:hover{
+    color: #ffa;
+}
+.contact{
+    display: flex;
+    justify-content: flex-end;
+}
+.con{
+    margin: 20px;
     text-align: center;
 }
-footer p{
-    font-size: 20px;
-    color: #fff !important;
-    cursor: pointer;
+.con-textual{
+    align-self: center;
 }
 
-footer p:hover{
-    color: var(--main) !important;
+.footcontainer{
+    display: flex;
+    justify-content: space-around;
+}
+.foot1{
+    align-self: center;
+}
+.foot1 .navbar-nav{
+    padding: 0px;
+    flex-direction: row;
+}
+.foot1 .navbar-nav .nav-link{
+    margin: 15px;
 }

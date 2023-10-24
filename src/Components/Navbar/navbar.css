@@ -16,9 +16,13 @@
     font-size: 1.3em;
     color: var(--main) !important;
 }
+.navbar-brand:hover{
+    color: #f22;
+    pointer-events: none;
+}
+
 .navbar-nav{
     padding: 0px 60px;
-    margin-top: 50px;
 }
 .nav-link{
     color: #ffa !important;
