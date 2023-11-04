@@ -3,10 +3,30 @@ import DetailsImg from "../../Images/details.jpg";
 import ImproveImg from "../../Images/improve.jpg";
 import TrainerImg from "../../Images/trainer.jpg";
 import JoinImg from "../../Images/joinusimg.jpg";
+import EquipImg from "../../Images/equipmentpromo.jpg";
+import ProteinImg from "../../Images/proteinpromo.jpg";
 // import SecondHeader from '../../Images/details.jpg'
 
 import "./home.css";
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  const navigate = useNavigate();
+
+  const handleJoin = () => {
+    navigate("/account/register");
+  };
+  const handleTrainPlan = () => {
+    navigate("/workout");
+  };
+  const handleProd = () => {
+    navigate("/product");
+  };
+
   return (
     <>
       {/*Header */}
@@ -38,7 +58,7 @@ const Home = () => {
             <h6>Attitude is everything..</h6>
             <h5>
               To Change <br /> Your Attitude is Just <br />
-              <span>Join Us</span>
+              <span onClick={handleJoin}>Join Us</span>
             </h5>
             <p>
               Your attitude determines your success. Whether you're a seasoned
@@ -94,7 +114,7 @@ const Home = () => {
         <div className="row">
           <div className="col-sm-8">
             <div className="box">
-              <div className="container">
+              <div className="container" onClick={handleTrainPlan}>
                 <div className="row">
                   <div className="col-sm-5 col-img">
                     <img src={ImproveImg} className="img-fluid" alt="" />
@@ -119,7 +139,7 @@ const Home = () => {
 
           <div className="col-sm-8">
             <div className="box">
-              <div className="container">
+              <div className="container" onClick={handleTrainPlan}>
                 <div className="row">
                   <div className="col-sm-5 col-img">
                     <img src={TrainerImg} className="img-fluid" alt="" />
@@ -142,10 +162,10 @@ const Home = () => {
         <div className="row">
           <div className="col-sm-8">
             <div className="box">
-              <div className="container">
+              <div className="container" onClick={handleProd}>
                 <div className="row">
                   <div className="col-sm-5 col-img">
-                    <img src={ImproveImg} className="img-fluid" alt="" />
+                    <img src={EquipImg} className="img-fluid" alt="" />
                   </div>
                   <div className="offset-sm-2 col-sm-5 col-text">
                     <div className="offset-head">Equipments</div>
@@ -167,10 +187,10 @@ const Home = () => {
 
           <div className="col-sm-8">
             <div className="box">
-              <div className="container">
+              <div className="container" onClick={handleProd}>
                 <div className="row">
                   <div className="col-sm-5 col-img">
-                    <img src={TrainerImg} className="img-fluid" alt="" />
+                    <img src={ProteinImg} className="img-fluid" alt="" />
                   </div>
                   <div className="offset-sm-2 col-sm-5 col-text">
                     <div className="offset-head">Protein Supplements</div>
@@ -197,7 +217,9 @@ const Home = () => {
         </div>
         <div className="Overlay"></div>
         <div className="inptxt">
-          <span className="context">Join Now</span>
+          <span className="context" onClick={handleJoin}>
+            Join Now
+          </span>
           <div className="textual">
             Be a part of something great - join us now!
           </div>

@@ -4,8 +4,12 @@ import w1 from "../../Images/w1.webp";
 import w2 from "../../Images/w2.webp";
 import w3 from "../../Images/w3.webp";
 import w4 from "../../Images/w4.jpeg";
+import { useEffect } from "react";
 
 const Workout = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div className="workoutpage">

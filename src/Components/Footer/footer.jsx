@@ -35,7 +35,7 @@ const Footer = () => {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/account" className="nav-link">
+                <NavLink to="/account/login" className="nav-link">
                   Account
                 </NavLink>
               </li>
@@ -43,15 +43,15 @@ const Footer = () => {
           </div>
           <div className="contact">
             <div className="con con-textual">Contact : </div>
-            <div className="con insta">
+            <NavLink to="#" className="con insta">
               <img src={Instagram} alt="Insta" srcset="" />
-            </div>
-            <div className="con facebook">
+            </NavLink>
+            <NavLink to="#" className="con facebook">
               <img src={Facebook} alt="FB" srcset="" />
-            </div>
-            <div className="con whatsapp">
+            </NavLink>
+            <NavLink to="#" className="con whatsapp">
               <img src={Whatsapp} alt="WA" srcset="" />
-            </div>
+            </NavLink>
           </div>
         </div>
         <div className="footing">

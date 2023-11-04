@@ -1,8 +1,12 @@
-import AboutHeader from "../../Images/about_header.jpg";
+import { useEffect } from "react";
+import AboutHeader from "../../Images/home.jpg";
 import AboutMain from "../../Images/about_main.jpg";
 import "./about.css";
 
 const AboutPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div className="aboutPage">

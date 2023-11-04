@@ -1,26 +1,92 @@
 .accountall{
-    background-color: #150;
+    background-color: #fff;
     padding: 30px;
+    position: relative;
     padding-top: 20vh;
 }
-.rgpg{
-    background-color: #150;
-    padding: 30px;
-    color: #fff;
+.bgimg .accountbg{
+    height: 80vh;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+}
+.form{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.rgpg,.lgpg{
+    background-color: #fff;
+    margin: 15px auto;
+    padding: 15px;
+    border: 2px solid black;
+    color: #000;
     text-align: center;
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
 }
-.register{
-    background-color: #cfa;
+.register,.login{
+    background-color: #00000080;
     padding: 20px;
     
 }
 .register .items{
-    padding: 20px;
+    padding: 5px;
+    margin: 5px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
-.register label{
-    color: var(--main) !important;
+.login .items{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.register label,
+.login label{
+    align-self: center;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+}
+.items label{
+    margin: 0px 20px;
+}
+.items .entry{
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.linking{
+    font-size: 15px;
+    margin: 20px;
+}
+.linking .navlink,
+.rglink .navlink{
+    color: #fff !important;
+    text-decoration: none;
+}
+.rglink{
+    font-size: 15px;
+    margin: 5px;
+}
+.register .btn,
+.login .btn{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+.submit ,
+.clickbtn{
+    height: 100%;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
 }

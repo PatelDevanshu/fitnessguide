@@ -4,6 +4,8 @@
 .aboutPage img{
     height: 80vh;
     width: 100%;
+    padding: 0rem 5rem;
+    padding-top: 135px;
     object-fit: cover;
 }
 .Overlay{
@@ -16,7 +18,7 @@
 }
 
 .about_main{
-    margin: 150px auto;
+    margin: 90px auto;
 
 }
 .about_main img{

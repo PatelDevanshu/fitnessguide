@@ -60,12 +60,6 @@
     margin: 30px;
 }
 
-.products .box:hover{
-    transform: scale(1.09);
-    background-color: #000;
-    cursor: pointer;
-}
-
 .products .cols{
     padding: 20px;
     display: flex;
@@ -75,15 +69,31 @@
 
 .products .box{
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
-.products .box:hover{
+.products .box:active{
     color: #ffc;
     transform: scale(1.1);
+    background-color: #000;
+    cursor: pointer;
 }
-
+.products .box .imgcont{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.products .imging{
+    max-width: 25vw;
+    max-height: 25vh;
+}
+.products .box .price{
+    margin-top: 50px;
+}
 .products .box .price h5{
     font-size: 20px;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
 }
