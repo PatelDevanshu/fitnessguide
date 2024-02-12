@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fb4ce46a.css",
+    "main.js": "/static/js/main.6cf425ea.js",
+    "static/js/787.c20870d0.chunk.js": "/static/js/787.c20870d0.chunk.js",
+    "static/media/joinusimg.jpg": "/static/media/joinusimg.088c8f0fb7e5b4d16de6.jpg",
+    "static/media/home.jpg": "/static/media/home.8dbebad70e2354431c1a.jpg",
+    "static/media/account_bg.jpg": "/static/media/account_bg.efe7886630b60aaa7736.jpg",
+    "static/media/about_main.jpg": "/static/media/about_main.5a7ff4c00f7c63818760.jpg",
+    "static/media/home1.jpg": "/static/media/home1.bd50eaa6f6c4a15c48e9.jpg",
+    "static/media/product_header.jpg": "/static/media/product_header.67ef7a2622b744ecdaba.jpg",
+    "static/media/details.jpg": "/static/media/details.b30274361be66dbcc9d8.jpg",
+    "static/media/oatmeals.png": "/static/media/oatmeals.ccfc2fee728279e5d284.png",
+    "static/media/proteinbar.png": "/static/media/proteinbar.7633d3a27827989f3b9a.png",
+    "static/media/proteincookies.png": "/static/media/proteincookies.067953bb9752d7eb3075.png",
+    "static/media/skipping.jpg": "/static/media/skipping.324f8b03a7984603e230.jpg",
+    "static/media/wheyprotein.png": "/static/media/wheyprotein.b4c2ba47bcd311f49703.png",
+    "static/media/barbell.jpeg": "/static/media/barbell.02e4cb3ad7d571fee498.jpeg",
+    "static/media/w4.jpeg": "/static/media/w4.7c3779af9cdda7563be0.jpeg",
+    "static/media/w3.webp": "/static/media/w3.b6cab5367afe79fa756d.webp",
+    "static/media/chips.png": "/static/media/chips.81553f4c40dddc8a1b1d.png",
+    "static/media/proteinpromo.jpg": "/static/media/proteinpromo.20347be011ca4ef12283.jpg",
+    "static/media/equipmentpromo.jpg": "/static/media/equipmentpromo.b8738cfeb73615d61ca9.jpg",
+    "static/media/treadmill.jpeg": "/static/media/treadmill.8abbf6e1e6925434fe99.jpeg",
+    "static/media/trainer.jpg": "/static/media/trainer.7954c5409ba2b6b5d504.jpg",
+    "static/media/improve.jpg": "/static/media/improve.f395eb1eeb0b23511a11.jpg",
+    "static/media/workout_header.webp": "/static/media/workout_header.5c7516b0afd419a8628a.webp",
+    "static/media/peanutbutter.png": "/static/media/peanutbutter.41a0c2a1e89573283bdc.png",
+    "static/media/w2.webp": "/static/media/w2.21882c085056cf800f4a.webp",
+    "static/media/w1.webp": "/static/media/w1.c9bd93a0382250901b8e.webp",
+    "static/media/kettlebell.jpeg": "/static/media/kettlebell.0c20e4cb26dfea9a8b6e.jpeg",
+    "static/media/dumbel1.webp": "/static/media/dumbel1.77d23aa6321c47bebfdf.webp",
+    "index.html": "/index.html",
+    "main.fb4ce46a.css.map": "/static/css/main.fb4ce46a.css.map",
+    "main.6cf425ea.js.map": "/static/js/main.6cf425ea.js.map",
+    "787.c20870d0.chunk.js.map": "/static/js/787.c20870d0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb4ce46a.css",
+    "static/js/main.6cf425ea.js"
+  ]
+}
